@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import BasicLineSeries from "./BasicLineSeries";
+import BasicLineSeries from "./BasicLineSeries.js";
 
 export default {
     title: "Features/EdgeCases",

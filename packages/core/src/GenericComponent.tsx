@@ -9,11 +9,11 @@ import React, {
     useRef,
     useState,
 } from "react";
-import { ICanvasContexts } from "./CanvasContainer";
-import { ChartCanvasContext } from "./ChartCanvas";
-import { useEvent } from "./useEvent";
-import { ChartConfig } from "./utils/ChartDataUtil";
-import { ChartContext } from "./Chart";
+import { ICanvasContexts } from "./CanvasContainer.js";
+import { ChartCanvasContext } from "./ChartCanvas.js";
+import { useEvent } from "./useEvent.js";
+import { ChartConfig } from "./utils/ChartDataUtil.js";
+import { ChartContext } from "./Chart.js";
 import { ScaleContinuousNumeric } from "d3-scale";
 
 const aliases: Record<string, string> = {
