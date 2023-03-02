@@ -685,7 +685,7 @@ export class EventCapture extends React.Component<EventCaptureProps, EventCaptur
             ? "react-financial-charts-grabbing-cursor"
             : "react-financial-charts-crosshair-cursor";
 
-        const interactionProps = disableInteraction || {
+        const interactionProps = disableInteraction ? {} : {
             onMouseDown: this.handleMouseDown,
             onClick: this.handleClick,
             onContextMenu: this.handleRightClick,
