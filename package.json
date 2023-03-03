@@ -3,7 +3,7 @@
   "private": false,
   "license": "MIT",
   "scripts": {
-    "postinstall": "npm run bootstrap",
+    "postinstall": "patch-package && npm run bootstrap",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "build:annotations": "lerna run build --scope='*/annotations'",
